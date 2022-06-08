@@ -1,6 +1,6 @@
 ## What is this package?
 
-This application comes with heuristic aiming to provide flag variations to users depending on their attributes.
+[Progressively](https://github.com/progressively-crew/progressively) comes with heuristics aiming to provide flag variations to users depending on their attributes.
 
 While it's easy to verify the behaviour in E2E tests and unit tests, these tests are very "arranged" and concern only one user at a time.
 
@@ -10,7 +10,7 @@ They mostly aim to verify that the flag provided to the N users are the good one
 
 ## How to start the load tests?
 
-- You first need to follow the [Raw installation guide](https://mfrachet.github.io/progressively/docs/get-started/raw-installation)
+- You first need to follow the [Raw installation guide](https://progressively-crew.github.io/docs/get-started/raw-installation)
 - Then, start the backend using `npm run dev` in the `./packages/backend`
 - Then start the dedicated client application running `npm start` in `./packages/load-testing`
 - Finally, run one of the following command:
